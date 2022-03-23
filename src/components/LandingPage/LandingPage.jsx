@@ -57,7 +57,7 @@ function LandingPage() {
           <center>
             <h4>Already a Member?</h4>
             <button className="btn btn_sizeSm" onClick={onLogin}>
-              Login
+              התחבר
             </button>
           </center>
         </div>
