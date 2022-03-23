@@ -13,7 +13,7 @@ function LoginForm() {
 
     if (username && password) {
       dispatch({
-        type: 'LOGIN',
+        type: 'היכנס',
         payload: {
           username: username,
           password: password,
