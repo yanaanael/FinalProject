@@ -17,7 +17,7 @@ function Nav() {
         {!user.id && (
           // If there's no user, show login/registration links
           <Link className="navLink" to="/login">
-            Login / Register
+            התחבר / הירשם
           </Link>
         )}
 
@@ -37,7 +37,7 @@ function Nav() {
         )}
 
         <Link className="navLink" to="/about">
-          About
+          אודות
         </Link>
       </div>
     </div>
