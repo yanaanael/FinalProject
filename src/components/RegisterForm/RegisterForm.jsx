@@ -21,7 +21,7 @@ function RegisterForm() {
 
   return (
     <form className="formPanel" onSubmit={registerUser}>
-      <h2>Register User</h2>
+      <h2>הרשמה לאתר</h2>
       {errors.registrationMessage && (
         <h3 className="alert" role="alert">
           {errors.registrationMessage}
@@ -29,7 +29,7 @@ function RegisterForm() {
       )}
       <div>
         <label htmlFor="username">
-          Username:
+          שם משתמש:
           <input
             type="text"
             name="username"
@@ -41,7 +41,7 @@ function RegisterForm() {
       </div>
       <div>
         <label htmlFor="password">
-          Password:
+          סיסמה:
           <input
             type="password"
             name="password"
